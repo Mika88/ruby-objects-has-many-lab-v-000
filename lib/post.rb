@@ -8,7 +8,7 @@ class Post
     @@all << self
   end
 
-  def seld.all
+  def self.all
     @@all
   end
 
