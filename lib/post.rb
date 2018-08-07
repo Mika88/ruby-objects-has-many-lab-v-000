@@ -19,7 +19,6 @@ class Post
    else
      self.author.name
    end
-   binding.pry
  end
-
 end
+binding.pry
