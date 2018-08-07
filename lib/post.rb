@@ -21,5 +21,5 @@ class Post
    end
    binding.pry
  end
- 
+
 end
