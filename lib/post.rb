@@ -13,7 +13,7 @@ class Post
   end
 
  def author_name
-   if !author.empty? 
+   if !author.empty?
      self.author.name
   else
     nil
