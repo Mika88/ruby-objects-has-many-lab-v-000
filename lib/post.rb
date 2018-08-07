@@ -21,4 +21,4 @@ class Post
    end
  end
 end
-binding.pry
+
