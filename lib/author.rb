@@ -15,5 +15,5 @@ class Author
     post = Post.new(title)
     @posts << post
     post.author.name = self
-  end  
+  end
 end
