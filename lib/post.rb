@@ -14,11 +14,11 @@ class Post
   end
 
  def author_name
-   if self.author.name.empty?
+   if self.author.empty?
      nil
    else
      self.author.name
    end
  end
 end
-binding.pry
+
