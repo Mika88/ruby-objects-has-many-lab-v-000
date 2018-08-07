@@ -15,11 +15,8 @@ class Post
  def author_name
    if self.author.name.empty?
      nil
-   else 
+   else
      self.author.name
    end
-  else
-    nil
-  end
  end
 end
